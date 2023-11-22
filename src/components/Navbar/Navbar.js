@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { FaRecycle } from "react-icons/fa";
+import { FaKitMedical } from "react-icons/fa6";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from '../Button/Button';
 import styled from "styled-components";
+
+
+
 
 const NavbarContainer = styled.nav`
   background: #2b1b5e;
@@ -43,7 +46,7 @@ const NavbarLogo = styled(Link)`
     }
 `;
 
-const NavbarIcon = styled(FaRecycle)`
+const NavbarIcon = styled(FaKitMedical)`
   margin-right: 0.2rem;
   color: #1dc2a6;
 `;
