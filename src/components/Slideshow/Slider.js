@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./Slider.css";
 
 // Importando  e definindo Slides 
-import Slide2 from './images/HomeSlide2.png';
+import Slide2 from './images/HomeSlide2.jpg';
 import Slide4 from './images/HomeSlide4.jpg';
 import Slide3 from './images/HomeSlide3.jpg';
 
