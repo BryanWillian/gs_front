@@ -70,14 +70,14 @@ function ContactPage() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
-    // Clear the alert message when the user starts typing
+   
     setAlertMessage("");
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform validation here
+    
     if (!formData.email) {
       setAlertMessage("Por favor, insira seu email.");
     } else if (!formData.name) {
@@ -85,9 +85,9 @@ function ContactPage() {
     } else if (!formData.message) {
       setAlertMessage("Por favor, insira uma mensagem.");
     } else {
-      // Send the form data or perform further actions (e.g., API request)
+      
       setAlertMessage("Mensagem enviada com sucesso!");
-      // Reset form fields
+     
       setFormData({
         name: "",
         email: "",

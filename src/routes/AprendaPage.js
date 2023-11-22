@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 import { Button } from '../components/Button/Button'; 
 import { Link } from 'react-router-dom';
 import FotoCard1 from '../images/card1.jpeg';
-import FotoCard2 from '../images/card2.jpg';
+import FotoCard2 from '../images/card2.jpeg';
 import FotoCard3 from '../images/card3.jpg';
-import FotoCard4 from '../images/card4.jpg';
+import FotoCard4 from '../images/card4.jpeg';
 
 const AprendaPageContainer = styled.div`
   display: flex;
@@ -49,8 +49,8 @@ const linkStyle = {
 
 function AprendaPage() {
   const imgStyle = {
-    height: '250px', // Set the desired height for all images
-    objectFit: 'cover', // Maintain aspect ratio and cover the entire space
+    height: '250px', 
+    objectFit: 'cover', 
   };
 
   return (
