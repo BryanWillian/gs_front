@@ -44,7 +44,7 @@ const FooterSubscriptionText = styled.p`
 
 const InputAreas = styled.div`
   display: flex;
-  flex-direction: column; /* Changed to column for alignment */
+  flex-direction: column;
   align-items: center;
 `;
 
@@ -59,8 +59,8 @@ const FooterInput = styled.input`
 `;
 
 const SubscriptionMessage = styled.div`
-  color: ${({ isSubscribed }) => (isSubscribed ? '#17cf97' : 'red')};
-  margin-top: 8px; /* Added margin-top to separate message from button */
+  color: ${({ isSubscribed }) => (isSubscribed ? '#1dc2a6' : 'red')};
+  margin-top: 8px; 
 `;
 
 const FooterLinks = styled.div`
@@ -161,8 +161,7 @@ function Footer() {
     if (!email) {
       setSubscriptionMessage('Por favor, insira seu email.');
     } else {
-      // Perform subscription logic here (e.g., API request)
-      // On success, set the success message and reset the email field
+      
       setSubscriptionMessage('Obrigado por inscrever-se!');
       setIsSubscribed(true);
       setEmail('');
@@ -173,11 +172,9 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubscriptionHeading>
-          Cadastre-se na nossa newsletter para aprender mais sobre reciclagem!
+          Cadastre-se na nossa newsletter para aprender mais sobre DSTs!
         </FooterSubscriptionHeading>
-        <FooterSubscriptionText>
-          Você pode cancelar a qualquer momento.
-        </FooterSubscriptionText>
+       
         <InputAreas>
           <FooterInput
             name='email'
@@ -195,8 +192,8 @@ function Footer() {
       <FooterLinks>
         <FooterLinkWrapper>
           <FooterLinkItems>
-            <FooterLink to='/mapa'>Pontos de coleta</FooterLink>
-            <FooterLink to='/aprenda'>Aprenda sobre reciclagem</FooterLink>
+            <FooterLink to='/mapa'>Pontos de distribuição</FooterLink>
+            <FooterLink to='./aprenda'>Aprenda sobre Dsts</FooterLink>
           </FooterLinkItems>
         </FooterLinkWrapper>
         <FooterLinkWrapper>
@@ -210,9 +207,9 @@ function Footer() {
         <SocialMediaWrap>
           <FooterLogo to='/'>
             <FaRecycle className='navbar-icon' />
-            Rota Sustentável
+            LifeAid
           </FooterLogo>
-          <WebsiteRights>Rota Sustentável © 2023</WebsiteRights>
+          <WebsiteRights>LifeAid © 2023</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='https://youtu.be/dQw4w9WgXcQ?si=bF3s-8G02p6dwOyl' target='_blank' aria-label='Facebook'>
               <FaFacebook />

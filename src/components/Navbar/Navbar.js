@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { FaKitMedical } from "react-icons/fa6";
+import { FaLaptopMedical } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from '../Button/Button';
 import styled from "styled-components";
@@ -46,8 +46,8 @@ const NavbarLogo = styled(Link)`
     }
 `;
 
-const NavbarIcon = styled(FaKitMedical)`
-  margin-right: 0.2rem;
+const NavbarIcon = styled(FaLaptopMedical)`
+  margin-right: 1.0rem;
   color: #1dc2a6;
 `;
 

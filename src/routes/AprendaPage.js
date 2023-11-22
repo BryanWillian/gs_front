@@ -5,7 +5,7 @@ import { Button } from '../components/Button/Button';
 import { Link } from 'react-router-dom';
 import FotoCard1 from '../images/card1.jpeg';
 import FotoCard2 from '../images/card2.jpeg';
-import FotoCard3 from '../images/card3.jpg';
+import FotoCard3 from '../images/card3.jpeg';
 import FotoCard4 from '../images/card4.jpeg';
 
 const AprendaPageContainer = styled.div`
