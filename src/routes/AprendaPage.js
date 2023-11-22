@@ -57,7 +57,7 @@ function AprendaPage() {
     <div className="aprendapage">
       <AprendaPageContainer>
         <AprendaPageTitle>Aprenda</AprendaPageTitle>
-        <AprendaPageText>Veja dicas de como reciclar corretamente</AprendaPageText>  
+        <AprendaPageText>Veja dicas de como salvar sua vida e melhorar a saúde sexual:</AprendaPageText>  
         <CardContainer>
           <Card style={{ width: '18rem', height: '30rem' }}>
             <Card.Img variant="top" src={FotoCard1} style={imgStyle}/>

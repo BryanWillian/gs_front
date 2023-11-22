@@ -33,7 +33,7 @@ function MapPage() {
     <div className="mappage">
       <MapPageContainer>
         <MapPageTitle>Pontos de distribuição de preservativos</MapPageTitle>
-        <MapPageText>Encontre o ponto de distribuição mais próximo de você no mapa abaixo</MapPageText>
+        <MapPageText>Encontre o ponto de distribuição mais próximo de você no mapa abaixo:</MapPageText>
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=10nLxqTmLcDRkwE8IEZpWIQhvPCcyO8k&ehbc=2E312F"
          width="640"
           height="480">
