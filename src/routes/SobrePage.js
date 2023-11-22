@@ -47,14 +47,18 @@ function SobrePage() {
       <SobrePageContainer>
         <SobrePageContainer2>
           <QuemSomosImage src={QuemSomos} alt="Quem Somos" />
-          <SobrePageTitle>Quem somos</SobrePageTitle>
-          <SobrePageText>Nós somos a Rota Sustentável, uma iniciativa inovadora focada na reciclagem e conscientização sustentável em São Paulo. Iniciamos este projeto em resposta ao desafio proposto pela IBM, com a missão de abordar a grave deficiência na reciclagem que afeta nosso meio ambiente, saúde pública e qualidade de vida. Atualmente, São Paulo recicla apenas 3% de seu lixo, e nosso objetivo é transformar essa realidade.</SobrePageText>
+          <SobrePageTitle>Quem nós somos?</SobrePageTitle>
+          <SobrePageText>Nós somos (nome do site). O tema proposto na Global Solution deste semestre envolve o uso da tecnologia com a saúde, como meios provenientes para promover um facilitador de acesso da população aos serviços prestados por profissionais da saúde. Diante os temas propostos pelos organizadores do projeto na FIAP, decidimos que iremos abordar o tema: CONTROLE DE DOENÇAS TRANSMISSÍVEIS com ênfase em DST´s (doenças sexualmente transmissíveis).​
+
+Este projeto visa implementar uma estratégia eficaz de sinalização em postos de saúde e estações de metrô para promover a conscientização, quebra de estigmas remanescentes e acessibilidade aos preservativos. A sinalização adequada desses locais não apenas facilitará a identificação dos pontos de venda, mas também contribuirá para a promoção da saúde sexual, incentivando práticas seguras e prevenindo doenças sexualmente transmissíveis (DSTs).​</SobrePageText>
           <br></br>
-          <SobrePageTitle>Nossa solução</SobrePageTitle>
+          <SobrePageTitle>Nossa solução:</SobrePageTitle>
           <SobrePageText>Nossa abordagem abrange diversas frentes. Através de um site intuitivo, conectamos os cidadãos aos pontos de reciclagem mais próximos e fornecemos informações claras sobre as melhores práticas de reciclagem. Além disso, planejamos a instalação de máquinas de reciclagem, as "Máquinas Verdes", que recompensarão os cidadãos por suas ações sustentáveis. Essa abordagem visa simplificar o processo de reciclagem e aumentar significativamente a taxa de reciclagem na cidade, reduzindo o lixo em aterros sanitários, a contaminação do solo e da água, e contribuindo para a redução das emissões de gases poluentes.</SobrePageText>
           <br></br>
-          <SobrePageTitle>Nosso impacto</SobrePageTitle>
-          <SobrePageText>A implementação da Rota Sustentável terá um impacto transformador na população de São Paulo. Aumentaremos a conscientização sobre a importância da reciclagem, melhorando a qualidade de vida dos cidadãos. Estamos confiantes de que, por meio da tecnologia, educação e incentivos tangíveis, podemos moldar um futuro mais sustentável, tornando São Paulo um exemplo de inovação ambiental e consciência coletiva. Junte-se a nós nessa jornada em direção a uma São Paulo mais verde e sustentável!</SobrePageText>
+          <SobrePageTitle>Nosso impacto!</SobrePageTitle>
+          <SobrePageText>O foco e principal objetivo deste projeto é além de providenciar uma maneira facilitada de acesso aos preservativos, mas também tratar este assunto com uma certa delicadeza para informar e conscientizar as pessoas da importância do uso de preservativos e prontamente junto a este tema, quebrar estigmas ainda remanescentes na nossa sociedade.​
+
+No nosso site criaremos um sistema de mapeamento usando a localização atual do usuário para infroma-lo o ponto de venda mais próximo. O site também estaria focado em ser o mais informativo tratando de uma maneira clara e objetiva sobre Dst´s e seus riscos para a saúde .humana. Adicionados ao nosso projeto como um "plus" faríamos um sistema de delivery de preservativos e para isso entraríamos em contato com o ministério da saúde para viabilizar este serviço e ao mesmo tempo com instituições que realizam o delivery como fonte de renda, como por exemplo, a Uber. Neste processo a venda seria decretada por uma quantidade mínima de preservativos por entrega e desse modo, o único custo gerado ao usuário seria pela taxa de entrega, que neste caso seria destinado à empresa parceira.</SobrePageText>
         </SobrePageContainer2>
       </SobrePageContainer>  
     </div>
