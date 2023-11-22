@@ -77,9 +77,9 @@ function AprendaPage() {
           <Card style={{ width: '18rem', height: '30rem' }}>
             <Card.Img variant="top" src={FotoCard2} style={imgStyle}/>
             <Card.Body>
-              <Card.Title style={{ fontSize: '1.5rem' }}>Dias e horários de coleta</Card.Title>
+              <Card.Title style={{ fontSize: '1.5rem' }}>Estações de metrô e trem</Card.Title>
               <Card.Text style={{ fontSize: '1.2rem' }}>
-                Saiba quando o caminhão de coleta passa na sua rua.
+                Saiba quais estações oferecem preservativos grátis.
               </Card.Text>
             </Card.Body>
             <Link to="/aprenda-2" style={linkStyle}>
@@ -92,9 +92,9 @@ function AprendaPage() {
           <Card style={{ width: '18rem', height: '30rem' }}>
             <Card.Img variant="top" src={FotoCard3} style={imgStyle} />
             <Card.Body>
-              <Card.Title style={{ fontSize: '1.5rem' }}>Reciclagem em condomínios</Card.Title>
+              <Card.Title style={{ fontSize: '1.5rem' }}>Artistas e famosos</Card.Title>
               <Card.Text style={{ fontSize: '1.2rem' }}>
-                Aprenda a organizar a coleta seletiva em seu condomínio.
+                Saiba alguns artistas conhecidos que contraíram DST's.
               </Card.Text>
             </Card.Body>
             <Link to="/aprenda-3" style={linkStyle}>

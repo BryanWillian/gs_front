@@ -23,7 +23,7 @@ export const Button = styled.button`
   ${props =>
     props.$primary &&
     css`
-      background: #17cf97;
+      background: #1dc2a6;
       color: #242424;
       border: 2px solid transparent;
     `};
