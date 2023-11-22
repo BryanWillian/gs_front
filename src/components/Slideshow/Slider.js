@@ -12,14 +12,14 @@ import Slide3 from './images/HomeSlide3.jpg';
 export const sliderData = [
     {
       image: Slide4,
-      title: "Te ajudamos a cuidar de São Paulo",
-      text: "Vamos ajudar a cidade reciclando nosso lixo? Aprenda mais com a gente",
+      title: "Te ajudaremos a cuidar de sua saúde sexual",
+      text: "Vamos ajudar a população brasileira a preservar sua vida?",
       path: "/aprenda"
     },
     {
       image: Slide2,
-      title: "Onde jogar meu lixo?",
-      text: "Veja onde tem um ponto de reciclagem próximo a você",
+      title: "Onde posso encontrar?",
+      text: "Veja onde existem pontos de distribuição próximo a você:",
       path: "/mapa"
     },
     {

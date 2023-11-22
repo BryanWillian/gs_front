@@ -99,8 +99,8 @@ function ContactPage() {
   return (
     <div className="contactpage">    
       <ContactPageForm onSubmit={handleSubmit}>
-          <FormTitle>Entre em contato</FormTitle>
-          <FormText>Dúvidas, críticas ou sugestões? Escreva para nós!</FormText>
+          <FormTitle> Contate-nos!</FormTitle>
+          <FormText>Alguma dúvida, crítica ou sugestão? Escreva para nós!</FormText>
           <FormInput
             type="text"
             name="name"

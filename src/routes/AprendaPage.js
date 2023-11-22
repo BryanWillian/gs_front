@@ -62,9 +62,9 @@ function AprendaPage() {
           <Card style={{ width: '18rem', height: '30rem' }}>
             <Card.Img variant="top" src={FotoCard1} style={imgStyle}/>
             <Card.Body>
-              <Card.Title style={{ fontSize: '1.5rem' }}>Quais resíduos são recicláveis?</Card.Title>
+              <Card.Title style={{ fontSize: '1.5rem' }}>Quais são as DST's mais comuns?</Card.Title>
               <Card.Text style={{ fontSize: '1.2rem' }}>
-                Veja aqui como separar os resíduos comuns dos recicláveis.
+                Veja aqui informações sobre algumas DST's
               </Card.Text>
             </Card.Body>
             <Link to="/aprenda-1" style={linkStyle}>
@@ -109,7 +109,7 @@ function AprendaPage() {
             <Card.Body>
               <Card.Title style={{ fontSize: '1.5rem' }}>Perguntas frequentes</Card.Title>
               <Card.Text style={{ fontSize: '1.2rem' }}>
-               Aqui você encontra respostas para as principais dúvidas sobre reciclagem. 
+               Aqui você encontra respostas para as principais dúvidas sobre saúde sexual. 
               </Card.Text>
             </Card.Body>
             <Link to="/aprenda-4" style={linkStyle}>

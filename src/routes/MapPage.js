@@ -32,13 +32,12 @@ function MapPage() {
   return (
     <div className="mappage">
       <MapPageContainer>
-        <MapPageTitle>Pontos de coleta</MapPageTitle>
-        <MapPageText>Encontre o ponto de reciclagem mais próximo de você</MapPageText>
-        <iframe
-          title="Google Maps"
-          src="https://www.google.com/maps/d/embed?mid=1H2xZ0GS-A_vT9nZw9JhPo-ZaCzU&ehbc=2E312F"
-          width="640" height="480">
-        </iframe>
+        <MapPageTitle>Pontos de distribuição de preservativos</MapPageTitle>
+        <MapPageText>Encontre o ponto de distribuição mais próximo de você no mapa abaixo</MapPageText>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=10nLxqTmLcDRkwE8IEZpWIQhvPCcyO8k&ehbc=2E312F"
+         width="640"
+          height="480">
+          </iframe>
       </MapPageContainer>  
     </div>
   );
