@@ -30,13 +30,13 @@ const Content = styled.div`
 
 const Label = styled.h2`
   font-size: 2.5rem;
-  color: #263243;
+  color: #2b1b5e;
   margin-bottom: 0.5em;
 `;
 
 const LabelSignup = styled.label`
   font-size: 16px;
-  color: #676767;
+  color: #2b1b5e;
 `;
 
 const LabelError = styled.label`

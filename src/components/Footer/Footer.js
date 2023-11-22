@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
 import { FaRecycle } from 'react-icons/fa';
 
 const FooterContainer = styled.div`
-  background-color: #263243;
+  background-color: #2b1b5e;
   padding: 1rem 0 0 1rem;
   display: flex;
   flex-direction: column;
@@ -89,7 +89,7 @@ const FooterLink = styled(Link)`
   text-decoration: none;
   margin-bottom: 0.5rem;
   &:hover {
-    color: #17cf97;
+    color: #1dc2a6;
     transition: 0.3s ease-out;
   }
 `;
@@ -123,7 +123,7 @@ const SocialIcons = styled.div`
 `;
 
 const FooterLogo = styled(Link)`
-  color: #17cf97;
+  color: #1dc2a6;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -144,7 +144,7 @@ const SocialIconLink = styled.a`
   font-size: 24px;
   margin-bottom: 10px;
   &:hover {
-    color: #17cf97;
+    color: #1dc2a6;
   }
 `;
 

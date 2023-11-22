@@ -11,6 +11,7 @@
     left: 0;
     opacity: 0;
     transition: opacity 1s ease;
+    width: 100%;
 }
 
 .slide img {
@@ -20,10 +21,11 @@
 
 @media screen and (max-width: 920px) {
     .slide img {
-      width: 250%;
-      height: 100%;
+        max-width: 100%;
+        height: auto;
     }
 }
+
 
 .current {
     opacity: 1;
@@ -98,7 +100,7 @@
 }
 
 .arrow:hover {
-    border: 1px solid #17cf97;
+    border: 1px solid #1723cf;
     color: #17cf97;
 }
   
