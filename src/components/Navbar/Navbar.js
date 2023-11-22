@@ -7,7 +7,7 @@ import { Button } from '../Button/Button';
 import styled from "styled-components";
 
 const NavbarContainer = styled.nav`
-  background: #263243;
+  background: #2b1b5e;
   height: 85px;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@ const NavbarContent = styled.div`
   padding-left: 30px;
 `
 const NavbarLogo = styled(Link)`
-  color: #17cf97;
+  color: #1dc2a6;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -45,7 +45,7 @@ const NavbarLogo = styled(Link)`
 
 const NavbarIcon = styled(FaRecycle)`
   margin-right: 0.2rem;
-  color: #17cf97;
+  color: #1dc2a6;
 `;
 
 const MenuIcon = styled.div`
@@ -83,7 +83,7 @@ const NavMenu = styled.ul`
     transition: all 0.5s ease;
 
     &.active {
-    background: #263243;
+    background: #1dc2a6;
     right: 0;
     opacity: 0.9;
     transition: all 0.6s ease;
@@ -96,7 +96,7 @@ const NavItem = styled.li`
   height: 85px;
   border-bottom: 2px solid transparent;
   &:hover {
-    border-bottom: 3px solid #17cf97;
+    border-bottom: 3px solid #1dc2a6;
   }
 
   @media screen and (max-width: 960px) {
@@ -115,11 +115,11 @@ const NavLinks = styled(NavLink)`
   padding: 0.5rem 1rem;
   height: 100%;
   &:hover {
-    color: #17cf97;
+    color: #1dc2a6;
     transition: all 0.3s ease;
   }
   &.active {
-    color: #17cf97;
+    color: #1dc2a6;
   }
 
 `;
