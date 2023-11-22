@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import QuemSomos from "../images/quemsomos2.jpg";
+import QuemSomos from "../images/quemsomos2.jpeg";
 
 
 const SobrePageContainer = styled.div`
