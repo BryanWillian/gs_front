@@ -3,7 +3,13 @@ import styled from 'styled-components';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
-import { FaRecycle } from 'react-icons/fa';
+import { FaLaptopMedical } from "react-icons/fa";
+
+
+const NavbarIcon = styled(FaLaptopMedical)`
+  margin-right: 1.0rem;
+  color: #1dc2a6;
+`;
 
 const FooterContainer = styled.div`
   background-color: #2b1b5e;
@@ -206,7 +212,7 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <FooterLogo to='/'>
-            <FaRecycle className='navbar-icon' />
+          <NavbarIcon />
             LifeAid
           </FooterLogo>
           <WebsiteRights>LifeAid © 2023</WebsiteRights>
