@@ -19,13 +19,13 @@ export const sliderData = [
     {
       image: Slide2,
       title: "Onde posso encontrar?",
-      text: "Veja onde existem pontos de distribuição próximo a você:",
+      text: "Veja onde existem pontos de distribuição próximo a você.",
       path: "/mapa"
     },
     {
       image: Slide3,
       title: "Sobre nós",
-      text: "Conheça mais sobre o nosso projeto",
+      text: "Conheça mais sobre o nosso projeto:",
       path: "/sobre"
     },
 
