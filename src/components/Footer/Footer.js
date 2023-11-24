@@ -217,16 +217,16 @@ function Footer() {
           </FooterLogo>
           <WebsiteRights>LifeAid © 2023</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="https://www.youtube.com/watch?v=cGL1jZ2khAw"  target='_blank' aria-label='Facebook'>
+            <SocialIconLink href=""  target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href="https://www.youtube.com/watch?v=E1FNkf3MLKY" target='_blank' aria-label='Instagram'>
+            <SocialIconLink href="" target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href="https://www.youtube.com/watch?v=8DyziWtkfBw" target='_blank' aria-label='Youtube'>
+            <SocialIconLink href="" target='_blank' aria-label='Youtube'>
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href="https://www.youtube.com/watch?v=Q0oIoR9mLwc" target='_blank' aria-label='Twitter'>
+            <SocialIconLink href="" target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
           </SocialIcons>
