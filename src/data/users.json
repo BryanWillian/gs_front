@@ -1,7 +1,10 @@
 {
     "users": [
       { "email": "guidaher2004@gmail.com", "password": "12345" },
-      { "email": "bryan.willian.messias@gmail.com", "password": "12345" }
+      { "email": "bryan.willian.messias@gmail.com", "password": "12345" },
+      { "email": "professoreduardo@gmail.com", "password": "12345" },
+      { "email": "professorchico@gmail.com", "password": "12345" }
+
     ]
   }
   
