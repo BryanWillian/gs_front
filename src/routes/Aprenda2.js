@@ -6,7 +6,7 @@ const Aprenda1 = () => {
   return (
     <>
       <div className="aprenda1">
-        <h1>Algumas estações de metrô que oferecem amostras grátis de camisinhas:</h1>
+        <h1>Algumas estações de metrô que oferecem camisinhas gratuitamente:</h1>
       
 
         <div className="accordionContainer">
@@ -17,7 +17,7 @@ const Aprenda1 = () => {
                 <ul>
                   <li>Estações: Tucuruvi, Paraíso e Jabaquara.
                   </li>
-                  <li>Horário de funcionamento: 04h40 às 00h</li>
+                  <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -27,7 +27,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                   <li>Estações: Paraíso, Consolação e Tamanduateí.</li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -37,7 +37,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                   <li>Estações: Corinthians-Itaquera, Tatuapé, Brás e República. </li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -47,7 +47,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                   <li>Estações: Luz, República, Higienópolis-Mackenzie, Fradique Coutinho, Pinheiros e Butantã.</li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -57,7 +57,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                   <li>Capão Redondo, Campo Limpo, Vila das Belezas, Giovanni Gronchi, Santo Amaro, Largo Treze, Adolfo Pinheiro, Alto da Boa Vista, Borba Gato, Brooklin, Campo Belo, Eucaliptos, Moema, AACD-Servidor, Hospital São Paulo, Santa Cruz e Chácara Klabin.</li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -67,7 +67,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                   <li>Estações: Sapopemba e São Matheus. </li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -77,7 +77,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                 <li> Estação: Guaianases.</li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
@@ -87,7 +87,7 @@ const Aprenda1 = () => {
               <Accordion.Body>
                 <ul>
                   <li>São Miguel Paulista, Engenheiro Goulart e Jardim Helena - Vila Mara.</li>
-                <li>Horário de funcionamento: 04h40 às 00h</li>
+                <li>Horário de funcionamento: 04h40 às 00h.</li>
                 </ul>
               </Accordion.Body>
             </Accordion.Item>

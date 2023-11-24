@@ -64,7 +64,7 @@ function AprendaPage() {
             <Card.Body>
               <Card.Title style={{ fontSize: '1.5rem' }}>Quais são as DST's mais comuns?</Card.Title>
               <Card.Text style={{ fontSize: '1.2rem' }}>
-                Veja aqui informações sobre algumas DST's
+                Veja aqui informações sobre algumas DST's.
               </Card.Text>
             </Card.Body>
             <Link to="/aprenda-1" style={linkStyle}>
